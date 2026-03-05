@@ -1,0 +1,10 @@
+services:
+  bot:
+    build: .
+
+    env_file:
+      - .env
+
+    environment:
+      - TOKEN=${TOKEN:-}
+      - CHAT_ID=${CHAT_ID:-}
