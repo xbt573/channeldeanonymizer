@@ -13,7 +13,7 @@ go build
 ```
 3. Launch
 ```
-TOKEN="12345:dhiusdhfiusdhf" CHAT_ID=-10013376942
+TOKEN="12345:dhiusdhfiusdhf" CHAT_ID=-10013376942 ./channeldeanonymizer
 ```
 (arguments also available in command line, more at `channeldeanonymizer --help`)
 

@@ -29,7 +29,6 @@ func New(options Options) *Bot {
 }
 
 func (b *Bot) onMessage(bot *gotgbot.Bot, ctx *ext.Context) error {
-	fmt.Println(ctx.EffectiveChat.Id, ctx.EffectiveSender)
 	if ctx.EffectiveChat.Id != b.options.ChatId {
 		return nil
 	}
